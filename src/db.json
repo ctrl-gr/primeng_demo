@@ -1,0 +1,77 @@
+{
+  "acmilan": [
+    {
+      "label": "Players",
+      "players": [
+        {
+          "name": "Yacine",
+          "surname": "Adli",
+          "role": "AMC",
+          "available": "Yes",
+          "email": "yacine.adli@si2001.it"
+        },
+        {
+          "name": "Rafa",
+          "surname": "Leao",
+          "role": "AMR",
+          "available": "No",
+          "email": "rafa.leao@si2001.it"
+        },
+        {
+          "name": "Sandro",
+          "surname": "Tonali",
+          "role": "MC",
+          "available": "Yes",
+          "email": "sandro.tonali@si2001.it"
+        },
+        {
+          "name": "Zlatan",
+          "surname": "Ibrahimovic",
+          "role": "ST",
+          "available": "No",
+          "email": "zlatan.ibrahimovic@si2001.it"
+        },
+        {
+          "name": "Theo",
+          "surname": "Hernandez",
+          "role": "DL",
+          "available": "Yes",
+          "email": "theo.hernandez@si2001.it"
+        },
+        {
+          "name": "Olivier",
+          "surname": "Giroud",
+          "role": "ST",
+          "available": "Yes",
+          "email": "olivier.giroud@si2001.it"
+        }
+      ]
+    },
+    {
+      "label": "management",
+      "management": [
+        {
+          "name": "Paolo",
+          "surname": "Maldini",
+          "role": "Technical Director",
+          "available": "No",
+          "email": "paolo.maldini@si2001.it"
+        },
+        {
+          "name": "Frederic",
+          "surname": "Massara",
+          "role": "Sports Director",
+          "available": "No",
+          "email": "frederic.massara@si2001.it"
+        },
+        {
+          "name": "Jerry",
+          "surname": "Cardinale",
+          "role": "CEO",
+          "available": "No",
+          "email": "jerry.cardinale@si2001.it"
+        }
+      ]
+    }
+  ]
+}
