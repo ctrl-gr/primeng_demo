@@ -1,15 +1,20 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import {ChoosePlayerComponent} from "./pages/choose-player/choose-player.component";
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {UsersComponent} from "./pages/users/users.component";
+
 
 const routes: Routes = [
   {
-    path: 'players', component: ChoosePlayerComponent
-  }
+    path: '', redirectTo: 'users', pathMatch: 'full'
+  },
+  {
+    path: 'users', component: UsersComponent
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
