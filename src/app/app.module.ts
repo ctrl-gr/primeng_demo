@@ -18,13 +18,15 @@ import {DropdownModule} from "primeng/dropdown";
 import {TagModule} from "primeng/tag";
 import {SliderModule} from "primeng/slider";
 import {ProgressBarModule} from "primeng/progressbar";
+import { ProductsComponent } from './pages/products/products/products.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
-    TableComponent
+    TableComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
